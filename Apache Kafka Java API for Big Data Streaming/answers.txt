@@ -1,0 +1,7 @@
+1. Created a Kafka topic "test2" with 3 partitions.
+2. Implemented a Kafka Producer that produces 1000 messages per second with keys (key1, key2, ..., key10) and random integer values (0-100).
+3. Implemented a Kafka Consumer that calculates the average of incoming messages and prints it after every 10,000 messages.
+4. Started one instance of the Kafka Producer.
+5. Started four instances of the Kafka Consumer.
+6. Consumers output the average of consumed messages after every 10,000 records. Each consumer processes a portion of the messages from the topic.
+7. Producers and consumers do not print messages at the same frequency due to differences in message production and consumption rates, network latency, and processing overhead.

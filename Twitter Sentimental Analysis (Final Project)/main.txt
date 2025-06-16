@@ -1,0 +1,7 @@
+set JAVA_HOME=C:\Java\jdk-22
+
+set PATH=%JAVA_HOME%\bin;%PATH%
+
+C:\kafka_2.13-3.7.1\bin\windows\zookeeper-server-start.bat C:\kafka_2.13-3.7.1\config\zookeeper.properties
+
+C:\kafka_2.13-3.7.1\bin\windows\kafka-server-start.bat C:\kafka_2.13-3.7.1\config\server.properties
